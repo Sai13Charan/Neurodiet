@@ -3,7 +3,8 @@ import pandas as pd
 import numpy as np
 import joblib
 import time
-from google import genai
+import google.generativeai as genai
+
 
 # =====================================================
 # LOAD ML MODEL & ENCODERS
@@ -154,3 +155,4 @@ def main():
 # =====================================================
 if __name__ == "__main__":
     main()
+
